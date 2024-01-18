@@ -1,13 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #87CEEB; /* Light blue background color */
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Make the container full height of the viewport */
 }
 
 .container {
     text-align: center;
-    margin-top: 100px;
 }
 
 h1 {
